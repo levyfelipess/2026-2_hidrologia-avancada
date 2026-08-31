@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hid_avan"
+version = "1.0.0"
+description = "Projetos da disciplina Hidrologia Avançada (doutorado) em 2026.2 com scripts do professor Dr. Eduardo Martins"
+authors = [
+	{ name = "Levy F. S. Saldanha", email = "levy.saldanha@alu.ufc.br"},
+	{ name = "Rodrigo P. Viturino", email = "rpvitor@alu.ufc.br"},
+	{ name = "Moisés B. D. Nogueira", email = "moiseysbdn@gmail.com"},
+	{ name = "Lina M. R. Beltran", email = "limrodriguezbe@gmail.com"}
+]
+dependencies = [
+	"numpy",
+	"pandas",
+	"scipy",
+	"jupyter",
+	"matplotlib",
+	"seaborn"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
