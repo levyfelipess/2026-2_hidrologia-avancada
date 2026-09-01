@@ -25,7 +25,7 @@ MSc. Moisés B. D. Nogueira (Doutorando)
 > GitHub:  \
 > LinkedIn: 
 
-###### *Todos os autores participaram ativamente, sendo a ordem dos nomes sem vínculo com a quantidade/ significância das contribuições.
+*<sup><sub> **Todos os autores participaram ativamente, sendo a ordem dos nomes sem vínculo com a quantidade/ significância das contribuições.**</sub></sup>
 
 ## Como Executar
 Com *git bash* (https://git-scm.com/install/windows):
