@@ -50,15 +50,10 @@ python -m venv .venv
 source .venv/Scripts/activate
 ```
 
-5. Instalar o projeto completo ou as bibliotecas necessárias:
-   1. Para `pyproject.toml`:
-   ```
-   pip install -e .
-   ```
-   2. Para `requirements.txt`:
-   ```
-   pip install -r requirements.txt
-   ```
+5. Instalar o projeto completo:
+```
+pip install -e .
+```
 
 6. Configurar um kernel específico para o ambiente virtual:
 ```
