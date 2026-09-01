@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from functools import partial
 from multiprocessing import Pool
 
-import ThiessenUtils as tu
+from .ThiessenUtils import isinpoly, corrposto, dispthi, wrap_voronoi, precimd
 
 __author__ = 'Paulo Jarbas Camurca'
 __credits__ = ['Fco Vasconcelos', 'Robson Franklin',
@@ -136,7 +136,8 @@ def thiessen(dados, lat: np.ndarray, lon: np.ndarray, pathshp: str,
     numpostos = np.empty([0])
 
     # Verifica se os pontos estão dentro do polígono
-    isin = tu.isinpoly(px, py, np.c_[bacx, bacy])
+    #isin = tu.isinpoly(px, py, np.c_[bacx, bacy])
+    isin = isinpoly(px, py, np.c_[bacx, bacy])
 
     if pf >= 0:
 
@@ -165,7 +166,8 @@ def thiessen(dados, lat: np.ndarray, lon: np.ndarray, pathshp: str,
             cc = np.array([max_lon, max_lon, min_lon, min_lon, max_lon])
             dd = np.array([max_lat, min_lat, min_lat, max_lat, max_lat])
 
-            isin = tu.isinpoly(px, py, np.c_[cc, dd])
+            #isin = tu.isinpoly(px, py, np.c_[cc, dd])
+            isin = isinpoly(px, py, np.c_[cc, dd])
 
             # plota area de busca que está sendo criada.
             # manter para debug
@@ -197,13 +199,15 @@ def thiessen(dados, lat: np.ndarray, lon: np.ndarray, pathshp: str,
         dados = dados[np.where(isin == 1)]
 
         # Eliminar posto repetido
-        [px, py, dados] = tu.corrposto(np.reshape(px, -1), np.reshape(py, -1), dados)
+        #[px, py, dados] = tu.corrposto(np.reshape(px, -1), np.reshape(py, -1), dados)
+        [px, py, dados] = corrposto(np.reshape(px, -1), np.reshape(py, -1), dados)
 
         dados = np.transpose(dados[:, 0:Ndias])
 
         # Chamada da rotina para o calculo da precipitacao media
         # Avalicao da disponibilidade dos dados
-        [thi, ithi] = tu.dispthi(dados)
+        #[thi, ithi] = tu.dispthi(dados)
+        [thi, ithi] = dispthi(dados)
 
         [mthi, nthi] = thi.shape
 
@@ -213,7 +217,10 @@ def thiessen(dados, lat: np.ndarray, lon: np.ndarray, pathshp: str,
         pool = Pool(num_proc)
 
         try:
-            alphas = pool.map(partial(tu.wrap_voronoi, px=px, py=py, bacx=bacx,
+            #alphas = pool.map(partial(tu.wrap_voronoi, px=px, py=py, bacx=bacx,
+            #                  bacy=bacy, thi=thi, figname=figname),
+            #                  list(range(mthi)))
+            alphas = pool.map(partial(wrap_voronoi, px=px, py=py, bacx=bacx,
                               bacy=bacy, thi=thi, figname=figname),
                               list(range(mthi)))
         except Exception:
@@ -236,7 +243,8 @@ def thiessen(dados, lat: np.ndarray, lon: np.ndarray, pathshp: str,
             thimin = thimed
             numpostos = -999 * np.ones((1, Ndias))
         else:
-            thimed = tu.precimd(coef, ithi, dados)
+            #thimed = tu.precimd(coef, ithi, dados)
+            thimed = precimd(coef, ithi, dados)
             thimax = np.full((thimed.shape[0], 1), 0.)
             thimin = np.full((thimed.shape[0], 1), 0.)
 
