@@ -18,7 +18,8 @@ dependencies = [
 	"scipy",
 	"jupyter",
 	"matplotlib",
-	"seaborn"
+	"seaborn",
+	"shapely"
 ]
 
 [tool.setuptools]
