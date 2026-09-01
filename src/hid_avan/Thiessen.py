@@ -3,7 +3,7 @@ Adaptado do cálculo do Thiessen versão Matlab (Autor: Dr. Eduardo Sávio)
 """
 
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from functools import partial
 from multiprocessing import Pool
 
