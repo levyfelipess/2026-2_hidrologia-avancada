@@ -2,7 +2,7 @@
 
 ## Informações Gerais 
 
-Este repositório armazena, com prioridade máxima à organização, rastreabilidade e reprodutibilidade, todos os projetos e experimentos realizados durante a disciplina de **Hidrologia Avançada**, ministrada pelo professor **Dr. Eduardo Savio P. R. Martins** durante o semestre de **2026.2**.
+Este repositório armazena, com prioridade máxima à organização, rastreabilidade e reprodutibilidade, todos os projetos e experimentos realizados durante a disciplina de **Hidrologia Avançada**, ministrada pelo professor **Dr. Eduardo Savio P. R. Martins** durante o semestre de **2026.2**, ofertada pelo **Programa de Pós-graduação em Engenharia Civil (POSDEHA), da UFC**.
 
 ## Autoria*
 **MSc. Levy F. S. Saldanha** - Doutorando em Engenharia Civil com ênfase em Recursos Hídricos pelo POSDEHA, UFC;
