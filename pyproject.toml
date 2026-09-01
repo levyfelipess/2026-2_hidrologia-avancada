@@ -15,6 +15,7 @@ authors = [
 dependencies = [
 	"numpy",
 	"pandas",
+	"openpyxl",
 	"scipy",
 	"jupyter",
 	"matplotlib",
