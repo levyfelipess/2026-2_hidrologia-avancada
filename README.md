@@ -40,7 +40,7 @@ Com *git bash* (https://git-scm.com/install/windows):
 
 1. Clonar o repositório:
 ```
-git clone https://github.com/levyfelipess/2026-2_hidrologia-avancada
+git clone https://github.com/levyfelipess/2026-2_hidrologia-avancada.git
 ```
 
 2. Acessar o diretório:
