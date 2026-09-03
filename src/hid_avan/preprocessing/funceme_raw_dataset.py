@@ -37,8 +37,8 @@ def build_timeseries_df_from_daily_pr_dataset(funceme_txt_path: str,
 
     Args:
         funceme_txt_path (str): Caminho do dataset bruto em .txt;
-        data_start (str): Data do dia inicial no formato 'AAAA-MM-DD';
-        data_end (str): Data do dia final no formato 'AAAA-MM-DD';
+        date_start (str): Data do dia inicial no formato 'AAAA-MM-DD';
+        date_end (str): Data do dia final no formato 'AAAA-MM-DD';
         missing_pr_value (float or None, optional): Valor numérico correspondente às precipitações faltantes. Se "None", não substitui.
 
     Returns:
