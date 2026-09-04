@@ -42,7 +42,9 @@ def build_timeseries_df_from_daily_pr_dataset(funceme_txt_path: str,
         missing_pr_value (float or None, optional): Valor numérico correspondente às precipitações faltantes. Se "None", não substitui.
 
     Returns:
-        pd.DataFrame: Séries temporais dispostas nas colunas, identificadas pelo ID da estação, com a coluna 0 constando as datas.
+        pd.DataFrame[n, 1+d]: Séries temporais de "n" amostras (dispostas ao longo das colunas) das "d" estações:
+            Coluna 0 ('date'): Índices temporais da série no formato 'AAAA-MM-DD';
+            Colunas 1 a d: Séries temporais identificadas pelo ID da estação.
     """
     id_array, _, pr_array = extract_arrays_from_daily_pr_dataset(funceme_txt_path=funceme_txt_path, missing_pr_value=missing_pr_value)
     n_stations = id_array.shape[0]
