@@ -20,7 +20,7 @@ def extract_arrays_from_daily_pr_dataset(funceme_txt_path: str,
 
     id_array = np.int32( complete_array[:, 0] )
 
-    coord_array = complete_array[:, [1, 2]]
+    coord_array = complete_array[:, [2, 1]]
     
     pr_array = complete_array[:, 3:].T
     if missing_pr_value is not None:
