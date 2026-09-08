@@ -1,1 +1,2 @@
 from .tabular_analysis import head_tail_info
+from .graphical_analysis import plot_basin_and_stations
