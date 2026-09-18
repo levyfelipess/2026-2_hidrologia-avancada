@@ -2,36 +2,15 @@
 
 ## Informações Gerais 
 
-Este repositório armazena, com prioridade máxima à organização, rastreabilidade e reprodutibilidade, todos os projetos e experimentos realizados durante a disciplina de **Hidrologia Avançada**, ministrada pelo professor **Dr. Eduardo Savio P. R. Martins** durante o semestre de **2026.2**, ofertada pelo **Programa de Pós-graduação em Engenharia Civil (POSDEHA), da UFC**.
+Este repositório armazena, com prioridade máxima à organização, rastreabilidade e reprodutibilidade, todos os projetos e experimentos realizados durante a disciplina de **Hidrologia Avançada**, ministrada pelo professor [**Dr. Eduardo Savio P. R. Martins**](https://posdeha.ufc.br/learncare_teachers/eduardo-savio/) durante o semestre de **2026.2**, ofertada pelo **Programa de Pós-graduação em Engenharia Civil (POSDEHA), da UFC**.
 
 ## Autoria*
-**MSc. Levy F. S. Saldanha** - Doutorando em Engenharia Civil com ênfase em Recursos Hídricos pelo POSDEHA, UFC;
-> **Email (institucional):** `levy.saldanha@alu.ufc.br` \
-> **GitHub:** [github.com/levyfelipess](https://github.com/levyfelipess) \
-> **LinkedIn:** [linkedin.com/in/levyfelipess](https://www.linkedin.com/in/levyfelipess) \
-> **Lattes:** [lattes.cnpq.br/2550917342552828](http://lattes.cnpq.br/2550917342552828) \
-> **Orcid:** [orcid.org/0009-0002-1537-3830](https://orcid.org/0009-0002-1537-3830)
+**MSc. Levy F. S. Saldanha:** `levy.saldanha@alu.ufc.br`, [Lattes](http://lattes.cnpq.br/2550917342552828), [LinkedIn](https://www.linkedin.com/in/levyfelipess), [GitHub](https://github.com/levyfelipess), [ORCID](https://orcid.org/0009-0002-1537-3830) \
+**BSc. Rodrigo P. Viturino:** `rpvitor@alu.ufc.br`, [!Lattes](), [!LinkedIn](), [!GitHub](), [!ORCID]() \
+**BSc. Lina M. R. Beltran:** `limrodriguezbe@gmail.com`, [!Lattes](), [!LinkedIn](), [!GitHub](), [!ORCID]() \
+**MSc. Moisés B. D. Nogueira:** `moiseysbdn@gmail.com`, [!Lattes](), [!LinkedIn](), [!GitHub](), [!ORCID]()
 
-**BSc. Rodrigo P. Viturino** - Mestrando em Engenharia Civil com ênfase em Recursos Hídricos pelo POSDEHA, UFC
-> **Email (institucional):** `rpvitor@alu.ufc.br` \
-> **GitHub:**  \
-> **LinkedIn:**  \
-> **Lattes:**  \
-> **Orcid:**  
-
-**BSc. Lina M. R. Beltran** - Mestranda em Engenharia Civil com ênfase em Recursos Hídricos pelo POSDEHA, UFC
-> **Email:** `limrodriguezbe@gmail.com` \
-> **GitHub:**  \
-> **LinkedIn:**  \
-> **Lattes:**  \
-> **Orcid:**  
-
-**MSc. Moisés B. D. Nogueira** - Doutorando em Engenharia Civil com ênfase em Recursos Hídricos pelo POSDEHA, UFC
-> **Email:** `moiseysbdn@gmail.com` \
-> **GitHub:**  \
-> **LinkedIn:**  \
-> **Lattes:**  \
-> **Orcid:**  
+OBS.: Todos estudantes do doutorado (Levy, Moisés) e mestrado (Rodrigo, Lina) em Engenharia Civil com ênfase em Engenharia Hidráulica e de Recursos Hídricos pelo [POSDEHA](https://posdeha.ufc.br/), UFC, e membros do [LRH](https://lrh.ufc.br/pt/lrh/), coordenado pelo professor [Dr. Iran E. Lima Neto](https://posdeha.ufc.br/learncare_teachers/iran-lima/).
 
 *<sup><sub> **Todos os autores participaram ativamente. A ordem de apresentação dos nomes não reflete vínculo com a quantidade ou significância das contribuições.**</sub></sup>
 
